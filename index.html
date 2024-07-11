@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="./assets/netflix-icon.svg">
+    <link rel="stylesheet" href="./style.css">
     <title>Pagina de inicio - Netflix</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html" id="logo">NETFLIX</a>
-            <ul>
-                <li href="index.html" class="Starting-menu">Inicio</li>
-                <li href="index.html" class="Starting-menu">Series</li>
-                <li href="index.html" class="Starting-menu">Películas</li>
-                <li href="index.html" class="Starting-menu">Novedades populares</li>
-                <li href="index.html" class="Starting-menu">Mi lista</li>
-                <li href="index.html" class="Starting-menu">Explorar por idiomas</li>
-            </ul>
-        </nav>
+        <div class="right-menu">
+            <a href="index.html"><img id="logo" src="./assets/netflix-logo.png" alt="netflix-logo"></a>
+                <p>Inicio</p>
+                <p>Series</p>
+                <p>Películas</p>
+                <p>Novedades populares</p>
+                <p>Mi lista</p>
+                <p>Explorar por idiomas</p>
+        </div>
+        <div class="left-menu">
+            <img class="icon" src="./assets/search-withe-icon.svg" alt="search-icon">
+            <p class="kids-section">Niños</p>
+            <img class="icon"src="./assets/notification-withe-icon.svg" alt="notification-icon">
+            <div class="profile-menu">
+                <img class="icon" src="./assets/profile-icon-green.png" alt="pg-icon">
+                <img id="triangle" src="./assets/withe-triangle.svg" alt="withe-triangle">
+            </div>
+        </div>
     </header>
     <main>
+        <article class="front-page">
+            <img src="./assets/front-page-naruto.webp" alt="front-page">
+            <section class="road-to-ninja">
+                <img src="./assets/road-to-ninja.webp" alt="">
+                    <p>Un enmascarado transporta a Naruto y Sakura a una realidad alternativa donde los padres de Naruto estan vivos y los de Sakura no. juntos deben de buscar como volver a casa.</p>
+                    <div id="double-button">
+                        <button id="play-button" class="button"> <img src="./assets/play-triangle.svg" alt="play-triangle"> Reproducir</button>
+                        <button id="information-button" class="button"> <img src="./assets/information-white-circle.svg" alt="information-circle"> Más informacion</button>
+                    </div>
+            </section>
+        </article>
     </main>
     <footer>
     </footer>
