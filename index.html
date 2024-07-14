@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="shorcut icon" href="./assets/netflix-icon.svg">
     <link rel="stylesheet" href="style.css">
     <title>Pagina de inicio - Netflix</title>
@@ -11,7 +14,7 @@
     <header>
         <section class="header-left">
             <a href="index.html"><img id="logo" src="./assets/netflix-logo.png" alt="netflix-logo"></a>
-                <p>Inicio</p>
+                <p id="start">Inicio</p>
                 <p>Series</p>
                 <p>Películas</p>
                 <p>Novedades populares</p>
@@ -56,7 +59,7 @@
                             <img class="icon-info" src="./assets/information-white-circle.svg" alt="information-circle">
                         </div>
                         <div>
-                            Mas información
+                            Más información
                         </div>
                     </div>
                 </div>
@@ -71,104 +74,364 @@
         <section class="bars">
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Tu próxima historia
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/movie-justiciero.webp" alt="justiciero">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/shield-of-hero.webp" alt="shield-hero">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/aplesed.webp" alt="appleseed">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/httyd-2.webp" alt="httyd">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/axel-f.jpg" alt="axel">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Cine de intriga y acción
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/jack-reacher.webp" alt="jack-reacher">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/otro-dia-para-matar.webp" alt="otro-dia-para-matar">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/guerra-de-los-mundos.webp" alt="guerra-de-los-mundos">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/M-I.webp" alt="M-I">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/Miedos.webp" alt="Miedos">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Anime basado en manga
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/demon-slayer.webp" alt="demon-slayer">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/cuatro-jinetes.jpg" alt="cuatro-jinetes">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/jujutsu.webp" alt="jujutsu">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/mazmorras.jpg" alt="mazmorras">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/onepuchman.webp" alt="onepuchman">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Nuestra selección para ti
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/boruto.webp" alt="boruto">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/la-ley-de-los-audaces.webp" alt="la-ley-de-los-audaces">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/overlord.webp" alt="overlord">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/supacel.jpg" alt="supacel">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/hells-paradice.webp" alt="hells-paradice">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Series favoritas de siempre
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/breaking-bad.webp" alt="breaking-bad">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/los-100.webp" alt="los-100">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/swat.webp" alt="swat">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/stranger-things.jpg" alt="stranger-things">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/lucifer.jpg" alt="lucifer">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Series dramáticas
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/samurai.jpg" alt="samurai">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/fire-country.webp" alt="fire-country">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/lucifer-2.jpg" alt="lucifer-2">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/better-call-sauls.jpg" alt="better-call-sauls">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/ley-y-yorden.webp" alt="ley-y-yorden">
+                    </div>
                 </div>
             </div>
             <div class="bar-block">
                 <div class="top-bar">
-                    <div class="left-top"></div>
-                    <div class="right-top"></div>
+                    <div class="left-top">
+                        Lo nuevo en Netflix
+                    </div>
+                    <div class="right-top">
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                        <div class="section-block"></div>
+                    </div>
                 </div>
                 <div class="bottom-bar">
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
-                    <div class="movie-block"></div>
+                    <div class="movie-block">
+                        <img src="./assets/gatitos-explosivos.jpg" alt="gatitos-explosivos">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/road-to-ninja-2.webp" alt="road-to-ninja-2">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/vikingos-valhala.jpg" alt="vikingos-valhala">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/desaparecidos de la noche.jpg" alt="desaparecidos">
+                    </div>
+                    <div class="movie-block">
+                        <img src="./assets/el-campeon.jpg" alt="el-campeon">
+                    </div>
                 </div>
             </div>
             <div class="ranking-bar">
-                <div class="ranking-block"></div>
-                <div class="ranking-block"></div>
-                <div class="ranking-block"></div>
-                <div class="ranking-block"></div>
-                <div class="ranking-block"></div>
+                <div class="ranking-title">
+                    Las 10 series más populares en México hoy
+                </div>
+                <div class="ranking-bottom">
+                    <div class="ranking-block">
+                        <div class="number">
+                            <img src="./assets/1.png" alt="">
+                        </div>
+                        <div class="ranking-img">
+                            <img src="./assets/pasteleros.jpg" alt="pasteleros">
+                        </div>
+                    </div>
+                    <div class="ranking-block">
+                        <div class="number">
+                            <img src="./assets/2.png" alt="">
+                        </div>
+                        <div class="ranking-img">
+                            <img src="./assets/mentiras-desesperadas.jpg" alt="mentiras-desesperadas">
+                        </div>
+                    </div>
+                    <div class="ranking-block">
+                        <div class="number">
+                            <img src="./assets/3.png" alt="">
+                        </div>
+                        <div class="ranking-img">
+                            <img src="./assets/vikingos-valhala-2.jpg" alt="vikingos-valhala-2">
+                        </div>
+                    </div>
+                    <div class="ranking-block">
+                        <div class="number">
+                            <img src="./assets/4.png" alt="">
+                        </div>
+                        <div class="ranking-img">
+                            <img src="./assets/mi-otra-yo.jpg" alt="mi-otra-yo">
+                        </div>
+                    </div>
+                    <div class="ranking-block">
+                        <div class="number">
+                            <img src="./assets/5.png" alt="">
+                        </div>
+                        <div class="ranking-img">
+                            <img src="./assets/supacel-2.jpg" alt="supacel-2">
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="content">
+            <div class="top-content">
+                <img class="icon" src="./assets/facebook-white.svg" alt="facebook-white">
+                <img class="icon" src="./assets/instagram-white.svg" alt="instagram-white">
+                <img class="icon" src="./assets/twitter-white.svg" alt="twitter-white">
+                <img class="icon" src="./assets/youtube-white.svg" alt="youtube-white">
+            </div>
+            <div class="middle-content">
+                <p class="p-content">
+                    Audio descriptivo
+                </p>
+                <p class="p-content">
+                    Relaciones con inversionistas
+                </p>
+                <p class="p-content">
+                    Privacidad
+                </p>
+                <p class="p-content">
+                    Contáctanos
+                </p>
+            </div>
+            <div class="bottom-content">
+                <div class="service-code">
+                    Código de servicio
+                </div>
+                <div class="netflix-inc">
+                    © 1997-2024 Netflix, Inc.
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top-content"></div>
+            <div class="middle-content">
+                <p class="p-content">
+                    Centro de ayuda
+                </p>
+                <p class="p-content">
+                    Empleo
+                </p>
+                <p class="p-content">
+                    Avisos legales
+                </p>
+                <p class="p-content"></p>
+            </div>
+            <div class="bottom-content"></div>
+        </div>
+        <div class="content">
+            <div class="top-content"></div>
+            <div class="middle-content">
+                <p class="p-content">
+                    Tarjetas de regalo
+                </p>
+                <p class="p-content">
+                    Tienda de Netflix
+                </p>
+                <p class="p-content">
+                    Preferancias de cookies
+                </p>
+                <p class="p-content"></p>
+            </div>
+            <div class="bottom-content"></div>
+        </div>
+        <div class="content">
+            <div class="top-content"></div>
+            <div class="middle-content">
+                <p class="p-content">Prensa</p>
+                <p class="p-content">Términos de uso</p>
+                <p class="p-content">Información corporativa</p>
+                <p class="p-content"></p>
+            </div>
+            <div class="bottom-content"></div>
+        </div>
+    </footer>
 </body>
 </html>

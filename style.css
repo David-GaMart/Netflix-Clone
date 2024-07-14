@@ -1,6 +1,8 @@
+
+
 body{
-    background-color: black;
     margin: 0;
+    font-family: "Noto Sans", sans-serif;
 }
 
 header{
@@ -11,27 +13,34 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding: .5rem 0 .5rem 0;
+    font-size: .8rem;
 }
 
 main{
-    background-color: black;
+    background-color: rgba(10, 10, 10, 1);
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-bottom: -5rem;
+    margin-bottom: -7rem;
 }
 
 footer{
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(10, 10, 10, 1);
+    color: rgb(130, 130, 130);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     width: 100%;
     height: 20rem;
 }
 
 .header-left{
+    color: rgb(200, 200, 200);
+    font-size: .9rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -47,7 +56,17 @@ footer{
     padding: 0 0 .5rem 0;
 }
 
+#start{
+    color: white;
+}
+
+.header-left p:hover{
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
 .header-right{
+    font-size: .9rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -60,6 +79,14 @@ footer{
 .icon{
     width: 2rem;
     height: 2rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.kids-section:hover{
+    cursor: pointer;
 }
 
 .front{
@@ -80,7 +107,7 @@ footer{
 
 .degraded{
     position: absolute;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 12%, rgba(252,250,246,0) 100%);
+    background: linear-gradient(0deg, rgba(10,10,10,1) 12%, rgba(252,250,246,0) 100%);
     width: 100%;
     height: 700px;
 }
@@ -155,17 +182,17 @@ footer{
 
 .bars{
     position: relative;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(10, 10, 10, 0);
     display: flex;
     flex-direction: column;
     gap: 3rem;
     width: 100%;
     height: auto;
-    bottom: 5rem;
+    bottom: 7rem;
 }
 
 .bar-block{
-    background-color: rgba(127, 255, 212, 0.3);
+
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -173,7 +200,7 @@ footer{
 }
 
 .top-bar{
-    background-color: aquamarine;
+
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -181,47 +208,190 @@ footer{
 }
 
 .left-top{
-    background-color: beige;
+    color: white;
+    padding: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
     width: 40%;
     height: 100%;
 }
 
 .right-top{
-    background-color: chocolate;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 2px;
     width: 40%;
     height: 100%;
 }
+
+.section-block{ 
+    background-color: gray;
+    margin-bottom: .5rem;
+    width: .7rem;
+    height: 3px;
+}
+
+.section-block:nth-child(1){
+    background-color: beige;
+}
+
+
 .bottom-bar{
-    background-color: chartreuse;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: .5rem;
     width: 100%;
     height: 80%;
 }
 
 .movie-block{
     background-color: blueviolet;
-    width: 12rem;
+    border-radius: 5px;
+    width: 15rem;
     height: 100%;
 }
 
+.movie-block img{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.movie-block:hover{
+    position: relative;
+    width: 17rem;
+    height: 18rem;
+}
+
 .ranking-bar{
-    background-color: rgba(127, 255, 212, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 14rem;
+}
+
+.ranking-title{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 2rem;/*
+    margin: 0 0 -3rem 0;*/
+    padding-left: 5rem;
+}
+
+.ranking-bottom{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    height: 10rem;
+    height: 12rem;
 }
 
 .ranking-block{
-    background-color: blueviolet;
+    display: flex;
+    justify-content: end;
     margin: 0 2rem 0 0;
     width: 14rem;
     height: 100%;
 }
 
-#logo{
+.number{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+.ranking-img{
+    position: relative;
+    right: 2rem;
+    width: 70%;
+    height: 100%;
+}
+
+.number img{
+    margin: -2.1rem;
+    width: 150%;
+    height: 135%;
+}
+
+.ranking-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 14rem;
+    height: 100%;
+}
+
+.top-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    width: 100%;
+    gap: .3rem;
+    height: auto;
+}
+
+.p-content{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
     height: 1.5rem;
+}
+
+.p-content:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom-content{
+    font-size: .8rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.service-code{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 50%;
+}
+
+.service-code:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.netflix-inc{
+    display: flex;
+    align-items: end;
+    height: 50%;
+}
+
+#logo{
+    height: 1.6rem;
+    margin: 0 1.5rem 0 .5rem;
 }
 
 #triangle{
@@ -231,11 +401,11 @@ footer{
     height: 1rem;
 }
 
-#triangle:hover{
-    transition: 300ms;
-    rotate: 0deg;
-    width: 1rem;
-    height: 1rem;
+.profile-menu:hover{
+    #triangle{
+            transition: 300ms;
+        rotate: 0deg;
+    }
 }
 
 #play-button{
